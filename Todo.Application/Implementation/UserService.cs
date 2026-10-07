@@ -32,10 +32,7 @@ namespace Todo.Application.Implementation
             var response = await userRepository.CommitAsync();
 
             return response > 0;  // Devuelve true si se guardó correctamente, false si no
-
-
-
-            //Application Layer in ASP.NET Core Web API | Clean Architecture – Part 5 hasta minuto 34
+            
         }
     }
 }
